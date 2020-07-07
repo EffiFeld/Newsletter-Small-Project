@@ -84,10 +84,13 @@ I'm working on this document thinking it's somewhere between exploration and bei
 Okay, I've been given a folder of random data files. My plan is to try and take a peak at some of them but there first thing I need to decided is, "what is useful to me here?"
 
 Sometimes you might know what you want to do already, but, currently, I'm flying blind - part of the beauty of R-tips.
-```{r}
+```{r echo  = FALSE}
 # checking my working directory is where I want it to be.
 getwd()
+setwd("/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/")
+```
 
+```{r}
 list.files("data")
 ```
 
