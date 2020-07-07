@@ -15,7 +15,7 @@ Everyone spin up their cmd -
     2. Make a new folder for the R file and data
         mkdir CovidProject
     3. Navigate into that file
-![](1.png)
+![](Pics/1.png)
 
     4. Open the github link and press the Green "Clone or Download" Button
     5. In CMD type `git clone [insert link here from last step]
@@ -27,11 +27,11 @@ Everyone spin up their cmd -
     8. While you're at it:  
         Make a new folder for your outputs: `mkdir outputs`
 
-![](2.png)
+![](Pics/2.png)
 
 So all together thats: ps feel free to keep the other items, it allows you to look back in time of this data.
 
-![](3.png)
+![](Pics/3.png)
 
 ```{r warning = FALSE, message = FALSE}
 library(tidyverse)
