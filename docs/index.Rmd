@@ -12,7 +12,7 @@ getwd()
 ```
 
 
-Aaron of Py-Tips fame and I have decided to offer up a little project. We're going to be taking a look at some COVID-19 data provided by Johns Hopkins and put together by Github which can be found here: https:/github.com/datasets/covid-19.
+<name redacted> of Py-Tips fame and I have decided to offer up a little project. We're going to be taking a look at some COVID-19 data provided by Johns Hopkins and put together by Github which can be found here: https:/github.com/datasets/covid-19.
 
 Ohhh github...well might as throw in a little git lesson here also.
 
