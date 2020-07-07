@@ -4,6 +4,14 @@ author: "Ekimetrics"
 date: "4/29/2020"
 output: html_document
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/")
+getwd()
+```
+
+
 Aaron of Py-Tips fame and I have decided to offer up a little project. We're going to be taking a look at some COVID-19 data provided by Johns Hopkins and put together by Github which can be found here: https:/github.com/datasets/covid-19.
 
 Ohhh github...well might as throw in a little git lesson here also.
@@ -15,7 +23,7 @@ Everyone spin up their cmd -
     2. Make a new folder for the R file and data
         mkdir CovidProject
     3. Navigate into that file
-![](Pics/1.png)
+![](/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/Pics/1.png)
 
     4. Open the github link and press the Green "Clone or Download" Button
     5. In CMD type `git clone [insert link here from last step]
@@ -27,11 +35,11 @@ Everyone spin up their cmd -
     8. While you're at it:  
         Make a new folder for your outputs: `mkdir outputs`
 
-![](Pics/2.png)
+![](/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/Pics/2.png)
 
 So all together thats: ps feel free to keep the other items, it allows you to look back in time of this data.
 
-![](Pics/3.png)
+![](/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/Pics/3.png)
 
 ```{r warning = FALSE, message = FALSE}
 library(tidyverse)
@@ -84,11 +92,6 @@ I'm working on this document thinking it's somewhere between exploration and bei
 Okay, I've been given a folder of random data files. My plan is to try and take a peak at some of them but there first thing I need to decided is, "what is useful to me here?"
 
 Sometimes you might know what you want to do already, but, currently, I'm flying blind - part of the beauty of R-tips.
-```{r echo  = FALSE}
-# checking my working directory is where I want it to be.
-getwd()
-setwd("/home/effi/Documents/git to add items/CovidProject/Newsletter Small Project/")
-```
 
 ```{r}
 list.files("data")
